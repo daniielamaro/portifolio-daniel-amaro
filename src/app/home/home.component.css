@@ -1,0 +1,24 @@
+.body{
+    background-color: #624D96;
+    width: 100vw;
+    height: 100vh;
+    color: #FFFFFF;
+    padding: 20px;
+}
+
+.centralizarv{
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.fotoperfil{
+    margin-bottom: 0px;
+}
+
+@media (max-width: 700px) 
+{
+    .fotoperfil{
+        margin-bottom: 40px;
+    }
+}

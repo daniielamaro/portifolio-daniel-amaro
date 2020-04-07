@@ -66,12 +66,13 @@ export class Alertas {
           'O número foi copiado para a área de transferencia',
           'success'
         )
-
+        
         let inputTest = document.createElement("input");
-          inputTest.value = "+5521974574753";
-          document.body.appendChild(inputTest);
-          inputTest.select();
-          document.execCommand('copy');
+        inputTest.value = "+5521974574753";
+        document.body.appendChild(inputTest);
+        inputTest.select();
+        document.execCommand('copy');
+        document.body.removeChild(inputTest);
       }
     });
   }
