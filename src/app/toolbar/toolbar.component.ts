@@ -15,15 +15,7 @@ export class ToolbarComponent implements OnInit {
   }
 
   exibirWhatsapp(){
-    this.alerta.whatsapp().then((result) => {
-      if (result.value) {
-        let inputTest = document.createElement("input");
-            inputTest.value = "+5521974574753";
-            document.body.appendChild(inputTest);
-            inputTest.select();
-            document.execCommand('copy');
-      }
-    });
+    this.alerta.whatsapp()
   }
 
 }
