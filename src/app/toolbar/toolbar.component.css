@@ -1,0 +1,32 @@
+.spacer {
+    flex: 1;
+  }
+
+  .toolbar {
+    position: absolute;
+    padding-left: 20px;
+    padding-right: 20px;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    background-color: #333;
+    font-weight: bold;
+    font-size: 18px;
+    color: white;
+  }
+
+  .svgiconclear path{
+    fill: #FFF;
+  }
+
+  .iconheader {
+    height: 40px;
+    margin: 0 16px;
+  }
+
+  .iconheader:hover {
+    opacity: 0.8;
+  }
