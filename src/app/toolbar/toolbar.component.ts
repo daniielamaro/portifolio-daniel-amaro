@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 
-import { Alertas } from '../shared/classes/alertas'
+import { Alertas } from '../shared/classes/alertas';
 
 @Component({
   selector: 'app-toolbar',

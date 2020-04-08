@@ -1,0 +1,28 @@
+.fotoperfil{
+    margin-bottom: 0px;
+}
+
+.fotoperfil img{
+    width: 60%;
+}
+
+.centralizarv{
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+h1{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+h5{
+    font-size: 16px;
+}
+
+@media (max-width: 700px){
+    .fotoperfil{
+        margin-bottom: 40px;
+    }
+}
